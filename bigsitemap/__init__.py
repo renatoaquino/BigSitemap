@@ -281,4 +281,4 @@ class IndexBuilder(Builder):
             self.tag('lastmod', self.format_iso8601(options['last_modified'],self._timezone))
         self.close_tag('sitemap')
 
-__all__ = [Builder,IndexBuilder]
+__all__ = [Builder,IndexBuilder,Generator]
